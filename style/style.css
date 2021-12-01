@@ -125,7 +125,7 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -101px;
+  top: -119px;
   left: 42%;
   /* transform: scale(0.1); */
 }
@@ -241,7 +241,7 @@ body {
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    left: 43%;
   }
 }
 
