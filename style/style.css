@@ -20,6 +20,7 @@ body {
 .container div.six {
   top: 10vh;
   z-index: 1;
+  max-width: 60%;
 }
 
 .container div.seven,
@@ -125,7 +126,7 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -119px;
+  top: -75px;
   left: 42%;
   /* transform: scale(0.1); */
 }
@@ -245,15 +246,16 @@ body {
   }
 }
 
-@media screen and (max-height: 700px) {
+/* @media screen and (max-height: 700px) {
   .six .hat {
     left: 32%;
   }
-}
+} */
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
     left: 32%;
+    top: -12%;
   }
 }
 
